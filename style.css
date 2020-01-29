@@ -4,7 +4,7 @@ html {
 
 /*Header*/
 header {
-    background-color: #1f1f1f;
+    background-color: #2f2f2f;
 
     display: flex;
     flex-direction: row;
@@ -89,7 +89,7 @@ nav a:active {
 
 /*Section HOME*/
 #home {
-    background-color: #1f1f1f;
+    background-color: #2f2f2f;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -144,4 +144,131 @@ nav a:active {
 
     text-decoration: underline;
     text-decoration-color: #efb13e;
+}
+
+/* About Section*/
+.ad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-ad {
+    display: flex;
+    flex-direction: column;
+    background-color: #2f2f2f;
+    width: 57rem;
+    height: 35rem;
+    margin: 10rem 2rem 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-ad h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #f2f2f2;
+    margin: 1rem;
+    padding: 0rem;
+}
+
+.about-ad h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    color: #f2f2f2;
+    margin: 1rem;
+    padding: 0rem;
+}
+
+.about-ad span {
+    font-weight: 700;
+    color: #7a9c0a;
+}
+
+.about-ad p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #f2f2f2;
+    margin: 1.5rem;
+    padding: 0rem;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+
+#about h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    color: #efb13e;
+
+    margin-bottom: 0.5rem;
+    padding: 0rem;
+}
+
+#about h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    color: #2f2f2f;
+
+    margin: 1.5rem;
+    padding: 0rem;
+}
+
+.about-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #2f2f2f;
+    width: 70rem;
+    text-align: center;
+}
+
+.three-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-icons {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 4rem 5rem;
+}
+
+#yellow-circle img{
+    width: 8rem;
+}
+
+#white-icon {
+
+}
+
+.about-icons h6 {
+    color: #2f2f2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0.5rem 0rem;
+    padding: 0rem;
+}
+
+.about-icons p {
+    color: #2f2f2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 16rem;
+    text-align: center;
+    margin: 0.5rem 0rem;
+    padding: 0rem;
 }
